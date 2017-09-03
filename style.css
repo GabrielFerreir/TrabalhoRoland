@@ -27,6 +27,7 @@
   margin-top: calc(50vh - 250px);
   position: absolute;
   cursor: pointer;
+  z-index: 1000;
 }
 .btn:nth-child(1) {
   left: 25vh;

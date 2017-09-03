@@ -1490,13 +1490,14 @@ function tratamentoEstadoCivil() {
 
 function next() {
   todosGraficos = document.querySelectorAll('.grafico');
-  if(todosGraficos[contadorSlide] && todosGraficos[contadorSlide + 1] ) {
+  if(todosGraficos[contadorSlide + 1] && todosGraficos[contadorSlide + 2] ) {
+    console.log("Entrou")
     contadorSlide++;
     console.log(todosGraficos[contadorSlide -1]);
     console.log(todosGraficos[contadorSlide]);
 
-    todosGraficos[contadorSlide - 1].style = "transition: all 2s ease; transform: translateX(-700px)";
-    todosGraficos[contadorSlide].style = "transition: all 2s ease; transform: translateX(-700px)";
+    todosGraficos[contadorSlide - 1].style = "transition: all 2s ease; transform: translateX("+(-quantidadeScroll)+"px)";
+    todosGraficos[contadorSlide].style = "transition: all 2s ease; transform: translateX("+(-quantidadeScroll)+"px)";
   }
 }
 
@@ -1506,7 +1507,7 @@ function prev() {
     contadorSlide--;
     console.log(todosGraficos[contadorSlide + 1]);
     console.log(todosGraficos[contadorSlide]);
-    todosGraficos[contadorSlide + 1].style = "transition: all 2s ease; transform: translateX(+500px)";
-    todosGraficos[contadorSlide].style = "transition: all 2s ease; transform: translateX(0px)";
+    todosGraficos[contadorSlide + 1].style = "transition: all 2s ease; transform: translateX("+quantidadeScroll+"px)";
+    todosGraficos[contadorSlide].style = "transition: all 2s ease; transform: translateX("+0+"px)";
   }
 }
