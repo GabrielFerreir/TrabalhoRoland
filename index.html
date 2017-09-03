@@ -1,6 +1,6 @@
 <html>
   <head>
-
+    <link rel="stylesheet" href="./style.css"/>
     <meta charset="utf-8">
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -10,14 +10,26 @@
 
   </head>
 
-  <body>
-    <button onclick="mostraDados()">Mostra</button>
+  <body onload="trataDataDeNascimento(), tratamentoEstadoCivil()">
+    <!-- <button onclick="mostraDados()">Mostra</button>
 
     <button onclick="mostraDado(1)">Mostra dado Id</button>
 
-    <button onclick="trataDataDeNascimento()">Data</button>
+    <button onclick="trataDataDeNascimento()">Data</button> -->
 
-     <div id="piechart" style="width: 900px; height: 500px;"></div>
+    <article class="botoesDosGraficos">
+      <img class="btn" onclick="prev()" src="./icons/left.svg"/>
+      <img class="btn" onclick="next()" src="./icons/right.svg"/>
+
+    </article>
+    <section class="graficos">
+      <div class="grafico" id="piechart"></div>
+      <div class="grafico" id="piechart2"></div>
+      <div class="grafico" id="piechartFilhos"></div>
+
+    </section>
+
+
 
   </body>
   <script src="./jquery.js">

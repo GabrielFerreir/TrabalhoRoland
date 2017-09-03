@@ -1333,13 +1333,36 @@ var dadosAlunos =
     }
 ]
 
-
 //JSON
 
+//TAMANHO DA TELA
+var larguraDaJanela = window.innerWidth;
+var AlturaDaJanela = window.innerHeight;
+var quantidadeScroll = larguraDaJanela / 2;
+
+window.addEventListener('resize', function(){
+    larguraDaJanela = window.innerWidth;
+    AlturaDaJanela = window.innerHeight;
+
+    console.log(larguraDaJanela);
+
+    quantidadeScroll = larguraDaJanela / 2;
+    console.log(quantidadeScroll)
+});
+
+var contadorSlide = 0;
+
+//
 var menorDe20 = 0
 var ate30 = 0
 var ate40 = 0
 var maior40 = 0
+
+//ESTADO CIVIL
+  var solteiro = 0;
+  var casado = 0;
+  var outro = 0;
+
 
 
 
@@ -1356,11 +1379,6 @@ function trataDataDeNascimento() {
   var anoAtual = d.getFullYear();
   var mesAtual = d.getMonth() + 1;
   var diaAtual = d.getDate();
-  // console.log(diaAtual+"/"+mesAtual+"/"+anoAtual);
-  // var menorDe20 = 0
-  // var ate30 = 0
-  // var ate40 = 0
-  // var maior40 = 0
 
   for(var i=0; i < dadosAlunos.length; i++) {
       var data = dadosAlunos[i].idade.split('/');
@@ -1407,8 +1425,10 @@ function trataDataDeNascimento() {
   console.log("De 21 á 30: "+ate30)
   console.log("De 31 á 40: "+ate40)
   console.log("Maior que 40: "+maior40)
+
   google.charts.load('current', {'packages':['corechart']});
   google.charts.setOnLoadCallback(drawChart);
+
 
   function drawChart() {
 
@@ -1431,6 +1451,62 @@ function trataDataDeNascimento() {
   }
 }
 
-function mostraDado(id) {
-  console.log(dadosAlunos[id].nome);
+function tratamentoEstadoCivil() {
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart2);
+
+
+  for(var i=0; i < dadosAlunos.length; i++) {
+
+
+    if(dadosAlunos[i].estadoCivil == "Solteiro(a)") {
+      solteiro++;
+    } else if (dadosAlunos[i].estadoCivil == "Casado(a)") {
+      casado++;
+    } else {
+      outro++;
+    }
+  }
+  function drawChart2() {
+
+    var data = google.visualization.arrayToDataTable([
+      ['Estado Civil', 'Situação'],
+      ['Solteiro',     solteiro],
+      ['Casado',      casado],
+      ['Outro',      outro],
+
+    ]);
+
+    var options = {
+      title: 'Estado Civil'
+    };
+
+    var chart2 = new google.visualization.PieChart(document.getElementById('piechart2'));
+
+    chart2.draw(data, options);
+  }
+}
+
+
+function next() {
+  todosGraficos = document.querySelectorAll('.grafico');
+  if(todosGraficos[contadorSlide] && todosGraficos[contadorSlide + 1] ) {
+    contadorSlide++;
+    console.log(todosGraficos[contadorSlide -1]);
+    console.log(todosGraficos[contadorSlide]);
+
+    todosGraficos[contadorSlide - 1].style = "transition: all 2s ease; transform: translateX(-700px)";
+    todosGraficos[contadorSlide].style = "transition: all 2s ease; transform: translateX(-700px)";
+  }
+}
+
+function prev() {
+  todosGraficos = document.querySelectorAll('.grafico');
+  if(todosGraficos[contadorSlide - 1] && todosGraficos[contadorSlide]) {
+    contadorSlide--;
+    console.log(todosGraficos[contadorSlide + 1]);
+    console.log(todosGraficos[contadorSlide]);
+    todosGraficos[contadorSlide + 1].style = "transition: all 2s ease; transform: translateX(+500px)";
+    todosGraficos[contadorSlide].style = "transition: all 2s ease; transform: translateX(0px)";
+  }
 }
