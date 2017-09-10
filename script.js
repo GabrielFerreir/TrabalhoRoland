@@ -1336,9 +1336,9 @@ var dadosAlunos =
 //JSON
 
 //TAMANHO DA TELA
-var larguraDaJanela = window.innerWidth;
-var AlturaDaJanela = window.innerHeight;
-var quantidadeScroll = larguraDaJanela / 2;
+    var larguraDaJanela = window.innerWidth;
+    var AlturaDaJanela = window.innerHeight;
+    var quantidadeScroll = larguraDaJanela / 2;
 
 window.addEventListener('resize', function(){
     larguraDaJanela = window.innerWidth;
@@ -1350,29 +1350,38 @@ window.addEventListener('resize', function(){
     console.log(quantidadeScroll)
 });
 
-var contadorSlide = 0;
+// var contadorSlide = 0;
 
 //
-var menorDe20 = 0
-var ate30 = 0
-var ate40 = 0
-var maior40 = 0
+
+var DataDeNascimentoMenorDe20 = 0
+var  DataDeNascimentoAte30 = 0
+var DataDeNascimentoAte40 = 0
+var DataDeNascimentoMaior40 = 0
 
 //ESTADO CIVIL
-  var solteiro = 0;
-  var casado = 0;
-  var outro = 0;
+  var estadoCivilSolteiro = 0;
+  var estadoCivilCasado = 0;
+  var estadoCivilOutro = 0;
+
+//FILHOS
+  var filhosTemFilhos = 0;
+  var filhosNaoTemFilhos = 0;
+
+  //RESIDE EM FRANCA
+  var ResideEmFrancaSim = 0;
+  var ResideEmFrancaNao = 0;
 
 
 
 
 
-function mostraDados() {
-  // console.log(dadosAlunos);
-  for(var i=0; i < dadosAlunos.length; i++) {
-    document.write(dadosAlunos[i].nome + '<br>') ;
-  }
-}
+// function mostraDados() {
+//   // console.log(dadosAlunos);
+//   for(var i=0; i < dadosAlunos.length; i++) {
+//     document.write(dadosAlunos[i].nome + '<br>') ;
+//   }
+// }
 
 function trataDataDeNascimento() {
   var d = new Date();
@@ -1382,12 +1391,11 @@ function trataDataDeNascimento() {
 
   for(var i=0; i < dadosAlunos.length; i++) {
       var data = dadosAlunos[i].idade.split('/');
-
       //MENOR DE 20
          if(data[2] > 1997 || data[2] == 1997 && data[1] < mesAtual ||
            data[2] == 1997 && data[1] == mesAtual && data[0] < diaAtual) {
             //  console.log("Menor de 20")
-             menorDe20++;
+             DataDeNascimentoMenorDe20++;
          }
       //DE 21 Á 30
          else if (
@@ -1398,7 +1406,7 @@ function trataDataDeNascimento() {
            data[2] == 1987 && data[1] == mesAtual && data[0] < diaAtual
          ) {
             //  console.log("Entre 21 a 30");
-             ate30++;
+              DataDeNascimentoAte30++;
          }
       //DE 31 Á 40
          else if (
@@ -1409,7 +1417,7 @@ function trataDataDeNascimento() {
            data[2] == 1977 && data[1] == mesAtual && data[0] < diaAtual
          ) {
             //  console.log("Entre 31 a 40");
-             ate40++;
+             DataDeNascimentoAte40++;
          }
          else if (
            data[2] < 1977 ||
@@ -1417,97 +1425,313 @@ function trataDataDeNascimento() {
            data[2] == 1977 && data[1] == mesAtual && data[0] >= diaAtual
          ) {
           //  console.log("Maior de 40")
-           maior40++
+           DataDeNascimentoMaior40++
          }
-
   }
-  console.log("Menor de 20: "+menorDe20)
-  console.log("De 21 á 30: "+ate30)
-  console.log("De 31 á 40: "+ate40)
-  console.log("Maior que 40: "+maior40)
+  console.log("IDADES")
+  console.log("Menor de 20: "+DataDeNascimentoMenorDe20)
+  console.log("De 21 á 30: "+ DataDeNascimentoAte30)
+  console.log("De 31 á 40: "+DataDeNascimentoAte40)
+  console.log("Maior que 40: "+DataDeNascimentoMaior40)
+  console.log("---------------")
 
-  google.charts.load('current', {'packages':['corechart']});
-  google.charts.setOnLoadCallback(drawChart);
+  // google.charts.load('current', {'packages':['corechart']});
+  // google.charts.setOnLoadCallback(drawChart);
 
 
-  function drawChart() {
-
-    var data = google.visualization.arrayToDataTable([
-      ['Idade', 'Quantidade'],
-      ['Menos de 20 anos',     menorDe20],
-      ['Entre 21 e 30 anos',      ate30],
-      ['Entre 31 e 40 anos',      ate40],
-      ['Maior de 40 anos',      maior40],
-
-    ]);
-
-    var options = {
-      title: 'Idades'
-    };
-
-    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-    chart.draw(data, options);
-  }
+//   function drawChart() {
+//
+//     var data = google.visualization.arrayToDataTable([
+//       ['Idade', 'Quantidade'],
+//       ['Menos de 20 anos',     DataDeNascimentoMenorDe20],
+//       ['Entre 21 e 30 anos',       DataDeNascimentoAte30],
+//       ['Entre 31 e 40 anos',      DataDeNascimentoAte40],
+//       ['Maior de 40 anos',      DataDeNascimentoMaior40],
+//
+//     ]);
+//
+//     var options = {
+//       title: 'Idades'
+//     };
+//
+//     var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+//
+//     chart.draw(data, options);
+//   }
 }
 
 function tratamentoEstadoCivil() {
-  google.charts.load('current', {'packages':['corechart']});
-  google.charts.setOnLoadCallback(drawChart2);
+  // google.charts.load('current', {'packages':['corechart']});
+  // google.charts.setOnLoadCallback(drawChart2);
 
+
+  for(var i=0; i < dadosAlunos.length; i++) {
+    if(dadosAlunos[i].estadoCivil == "Solteiro(a)") {
+      estadoCivilSolteiro++;
+    } else if (dadosAlunos[i].estadoCivil == "Casado(a)") {
+      estadoCivilCasado++;
+    } else {
+      estadoCivilOutro++;
+    }
+  }
+  console.log("ESTADO CIVIL")
+  console.log("Solteiro:" + estadoCivilSolteiro)
+  console.log("Casado:" + estadoCivilCasado)
+  console.log("Outro:" + estadoCivilOutro)
+  console.log("------------------")
+
+  // function drawChart2() {
+  //
+  //   var data = google.visualization.arrayToDataTable([
+  //     ['Estado Civil', 'Situação'],
+  //     ['Solteiro',     estadoCivilSolteiro],
+  //     ['Casado',      estadoCivilCasado],
+  //     ['Outro',      estadoCivilOutro],
+  //
+  //   ]);
+  //
+  //   var options = {
+  //     title: 'Estado Civil'
+  //   };
+  //
+  //   var chart2 = new google.visualization.PieChart(document.getElementById('piechart2'));
+  //
+  //   chart2.draw(data, options);
+  // }
+}
+
+
+function tratamentoFilhos() {
+  // google.charts.load('current', {'packages':['corechart']});
+  // google.charts.setOnLoadCallback(drawChart3);
 
   for(var i=0; i < dadosAlunos.length; i++) {
 
 
-    if(dadosAlunos[i].estadoCivil == "Solteiro(a)") {
-      solteiro++;
-    } else if (dadosAlunos[i].estadoCivil == "Casado(a)") {
-      casado++;
+    if(dadosAlunos[i].filhos == "Não tem filhos") {
+      //SEM FILHOS
+      filhosNaoTemFilhos++;
     } else {
-      outro++;
+      //COM FILHOS
+      filhosTemFilhos++;
     }
   }
-  function drawChart2() {
-
-    var data = google.visualization.arrayToDataTable([
-      ['Estado Civil', 'Situação'],
-      ['Solteiro',     solteiro],
-      ['Casado',      casado],
-      ['Outro',      outro],
-
-    ]);
-
-    var options = {
-      title: 'Estado Civil'
-    };
-
-    var chart2 = new google.visualization.PieChart(document.getElementById('piechart2'));
-
-    chart2.draw(data, options);
-  }
+  console.log("FILHOS")
+  console.log("Tem filhos:" + filhosTemFilhos)
+  console.log("Não Tem filhos:" + filhosNaoTemFilhos)
+  console.log("---------------")
+  // function drawChart3() {
+  //
+  //   var data = google.visualization.arrayToDataTable([
+  //     ['Tem Filhos', 'Situação'],
+  //     ['Com Filhos',     filhosTemFilhos],
+  //     ['Sem Filhos',      filhosNaoTemFilhos]
+  //   ]);
+  //
+  //   var options = {
+  //     title: 'Estado Civil'
+  //   };
+  //
+  //   var chart3 = new google.visualization.PieChart(document.getElementById('piechart3'));
+  //
+  //   chart3.draw(data, options);
+  // }
 }
 
-
-function next() {
-  todosGraficos = document.querySelectorAll('.grafico');
-  if(todosGraficos[contadorSlide + 1] && todosGraficos[contadorSlide + 2] ) {
-    console.log("Entrou")
-    contadorSlide++;
-    console.log(todosGraficos[contadorSlide -1]);
-    console.log(todosGraficos[contadorSlide]);
-
-    todosGraficos[contadorSlide - 1].style = "transition: all 2s ease; transform: translateX("+(-quantidadeScroll)+"px)";
-    todosGraficos[contadorSlide].style = "transition: all 2s ease; transform: translateX("+(-quantidadeScroll)+"px)";
+function tratamentoResideEmFranca() {
+  for (var i = 0; i < dadosAlunos.length; i++) {
+    if(dadosAlunos[i].cidadeEmQueReside == "Franca") {
+      ResideEmFrancaSim++;
+    } else {
+      ResideEmFrancaNao++;
+    }
   }
+  console.log("RESIDE EM FRANCA")
+  console.log("Sim: " + ResideEmFrancaSim)
+  console.log("Não: " + ResideEmFrancaNao)
+  console.log("-----------------")
 }
 
-function prev() {
-  todosGraficos = document.querySelectorAll('.grafico');
-  if(todosGraficos[contadorSlide - 1] && todosGraficos[contadorSlide]) {
-    contadorSlide--;
-    console.log(todosGraficos[contadorSlide + 1]);
-    console.log(todosGraficos[contadorSlide]);
-    todosGraficos[contadorSlide + 1].style = "transition: all 2s ease; transform: translateX("+quantidadeScroll+"px)";
-    todosGraficos[contadorSlide].style = "transition: all 2s ease; transform: translateX("+0+"px)";
+//-----------------------------------------------------------------
+
+var locomocaoMoto = 0;
+var locomocaoOnibus = 0;
+var locomocaoCarro = 0;
+var locomocaoAndando = 0;
+var locomocaoBicicleta = 0;
+
+// var locomocaoVeiculoProprio = 0;
+// var locomocaoColetivo = 0;
+// var locomocaoSemConducao = 0;
+// var locomocaoVeiculosDeTerceiros = 0;
+
+function tratamentoLocamocao() {
+  for (var i = 0; i < dadosAlunos.length; i++) {
+
+    if(dadosAlunos[i].meioDeLocomoo == "Moto") {
+      // locomocaoVeiculoProprio++;
+      locomocaoMoto++;
+    } else if (dadosAlunos[i].meioDeLocomoo == "Ônibus") {
+      // locomocaoColetivo++;
+      locomocaoOnibus++;
+    } else if (dadosAlunos[i].meioDeLocomoo == "Carro") {
+      // locomocaoVeiculoProprio++;
+      locomocaoCarro++;
+    } else if (dadosAlunos[i].meioDeLocomoo == "Andando") {
+      // locomocaoSemConducao++;
+      locomocaoAndando++;
+    } else if (dadosAlunos[i].meioDeLocomoo == "Bicicleta") {
+      // locomocaoSemConducao++;
+      locomocaoBicicleta++;
+    }
   }
+  console.log("LOCOMOÇÃO")
+  // console.log("Veiculo Proprio: " + locomocaoVeiculoProprio);
+  // console.log("Veiculo de Terceiros: " + locomocaoVeiculosDeTerceiros);
+  // console.log("Coletivo: " + locomocaoColetivo);
+  // console.log("Sem condução: " + locomocaoSemConducao);
+  console.log("Moto: " + locomocaoMoto);
+  console.log("Carro: " + locomocaoCarro);
+  console.log("Ônibus: " + locomocaoOnibus);
+  console.log("Andando: " + locomocaoAndando);
+  console.log("Bicicleta: " + locomocaoBicicleta);
+  console.log("----------------")
+}
+residenciaPropriaPropria = 0;
+residenciaPropriaFinanciado = 0;
+residenciaPropriaAlugado = 0;
+
+
+function tratamentoResidenciaPropria() {
+  for (var i = 0; i < dadosAlunos.length; i++) {
+
+    if(dadosAlunos[i].situaoDomiciliar == "Próprio") {
+      residenciaPropriaPropria++;
+    } else if (dadosAlunos[i].situaoDomiciliar == "Financiado") {
+      residenciaPropriaFinanciado++;
+    } else if (dadosAlunos[i].situaoDomiciliar == "Alugado") {
+      residenciaPropriaAlugado++;
+    }
+  }
+
+  console.log("RESIDENCIA PROPRIA")
+  console.log("Propria: " + residenciaPropriaPropria);
+  console.log("Alugado: " + residenciaPropriaAlugado);
+  console.log("Financiado: " + residenciaPropriaFinanciado);
+  console.log("---------------------------")
+  // Próprio
+  // Financiado
+  // Alugado
+}
+
+//----------------------------------------------------------------------------
+
+
+var comQuemMoraFamilia = 0;
+var comQuemMoraSozinho = 0;
+var comQuemMoraRepublica = 0;
+
+// Família
+// Sozinho
+// Republica
+
+function tratamentoComQuemMora() {
+  for (var i = 0; i < dadosAlunos.length; i++) {
+    if(dadosAlunos[i].comQuemMora == "Família") {
+      comQuemMoraFamilia++;
+    } else if (dadosAlunos[i].comQuemMora == "Sozinho") {
+      comQuemMoraSozinho++;
+    } else if (dadosAlunos[i].comQuemMora == "Republica") {
+      comQuemMoraRepublica++;
+    }
+  }
+  console.log("COM QUEM MORA")
+  console.log("Familia: " + comQuemMoraFamilia)
+  console.log("Sozinho: " + comQuemMoraSozinho)
+  console.log("Republica: " + comQuemMoraRepublica)
+  console.log("---------------")
+}
+
+//----------------------------------------------------------------------------
+
+deficienciaSim = 0;
+deficienciaNao = 0;
+
+function tratamentoVocTemAlgumaDeficinciafsicamental() {
+  for (var i = 0; i < dadosAlunos.length; i++) {
+    // console.log(dadosAlunos[i].vocTemAlgumaDeficinciafsicamental)
+    if(dadosAlunos[i].vocTemAlgumaDeficinciafsicamental == "Não") {
+      deficienciaNao++;
+    } else {
+      deficienciaSim++;
+    }
+  }
+  console.log("DEFICIENCIA")
+  console.log("Sim: " + deficienciaSim);
+  console.log("Não: " + deficienciaNao);
+  console.log("--------------------")
+}
+//----------------------------------------------------------------------------
+
+tempoDeMoradia1 = 0;
+tempoDeMoradia2 = 0;
+tempoDeMoradia3 = 0;
+tempoDeMoradia4ouMais = 0;
+
+function tratamentoTempoDeMoradiaanos() {
+  for (var i = 0; i < dadosAlunos.length; i++) {
+    // console.log(dadosAlunos[i].tempoDeMoradiaanos);
+    if (dadosAlunos[i].tempoDeMoradiaanos == "1") {
+      tempoDeMoradia1++;
+    } else if (dadosAlunos[i].tempoDeMoradiaanos == "2") {
+      tempoDeMoradia2++;
+    } else if (dadosAlunos[i].tempoDeMoradiaanos == "3") {
+      tempoDeMoradia3++;
+    } else if (dadosAlunos[i].tempoDeMoradiaanos == "4 ou mais") {
+      tempoDeMoradia4ouMais++
+   }
+  }
+  console.log("TEMPO DE MORADIA")
+  console.log("1 Ano: " + tempoDeMoradia1)
+  console.log("2 Ano: " + tempoDeMoradia2)
+  console.log("3 Ano: " + tempoDeMoradia3)
+  console.log("4 ou mais Anos: " + tempoDeMoradia4ouMais)
+  console.log("---------------------")
+}
+
+//----------------------------------------------------------------------------
+
+atividadeRemuneradaNunca = 0;
+atividadeRemuneradaSimNaArea = 0;
+atividadeRemuneradaSimFora = 0;
+atividadeRemuneradaNaoArea = 0;
+atividadeRemuneradaNaoJaNaArea = 0;
+
+function tratamentoExerceAtividadeRemunerada() {
+  for (var i = 0; i < dadosAlunos.length; i++) {
+    // console.log(dadosAlunos[i].exerceAtividadeRemunerada)
+    if(dadosAlunos[i].exerceAtividadeRemunerada == "Nunca trabalhei") {
+      atividadeRemuneradaNunca++;
+    } else if (dadosAlunos[i].exerceAtividadeRemunerada == "Sim. Trabalho na área do curso") {
+      atividadeRemuneradaSimNaArea++;
+    } else if (dadosAlunos[i].exerceAtividadeRemunerada == "Sim. Trabalho fora da área do curso") {
+      atividadeRemuneradaSimFora++;
+    } else if (dadosAlunos[i].exerceAtividadeRemunerada == "Não. Nunca trabalhei na área do curso.") {
+      atividadeRemuneradaNaoArea++;
+    } else if (dadosAlunos[i].exerceAtividadeRemunerada =="Não. Já trabalhei na área do curso.") {
+      atividadeRemuneradaNaoJaNaArea++;
+   }
+  }
+  console.log("EXERCE ATIVIDADE REMUNERADA")
+  console.log("Nunca Trabalhei: " + atividadeRemuneradaNunca);
+  console.log("Sim na área: " + atividadeRemuneradaSimNaArea);
+  console.log("Sim fora da área: " + atividadeRemuneradaSimFora);
+  console.log("Não, nunca trabalhei na área: " + atividadeRemuneradaNaoArea);
+  console.log("Não, Já trabalhei na área: " + atividadeRemuneradaNaoJaNaArea);
+  console.log("---------------------")
+  // Sim. Trabalho na área do curso
+  // Nunca trabalhei
+  // Sim. Trabalho fora da área do curso
+  // Não. Nunca trabalhei na área do curso.
+
 }
