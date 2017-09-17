@@ -1,0 +1,142 @@
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\csc.exe
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\csc.exe.config
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\csc.rsp
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\csi.exe
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\csi.rsp
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.AppContext.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\vbc.exe
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\vbc.exe.config
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\vbc.rsp
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\VBCSCompiler.exe
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\AnaliseSocioeconomica.dll.config
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\AnaliseSocioeconomica.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\AnaliseSocioeconomica.pdb
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Newtonsoft.Json.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Net.Http.Formatting.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Helpers.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.WebHost.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Mvc.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Razor.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.Deployment.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.Razor.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Table.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\EPPlus.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Table.pdb
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Razor.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.Deployment.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.Razor.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Helpers.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Mvc.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Newtonsoft.Json.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Net.Http.Formatting.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.WebHost.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\EPPlus.xml
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\obj\Debug\AnaliseSocioeconomica.csprojResolveAssemblyReference.cache
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\obj\Debug\AnaliseSocioeconomica.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\obj\Debug\AnaliseSocioeconomica.pdb
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Cors.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.Cors.dll
+C:\Users\joyls\Desktop\trabalho do roland\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.Cors.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\csc.exe
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\csc.exe.config
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\csc.rsp
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\csi.exe
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\csi.rsp
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.AppContext.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\vbc.exe
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\vbc.exe.config
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\vbc.rsp
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\VBCSCompiler.exe
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\AnaliseSocioeconomica.dll.config
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\AnaliseSocioeconomica.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\AnaliseSocioeconomica.pdb
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Newtonsoft.Json.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Net.Http.Formatting.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Cors.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Helpers.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.Cors.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.WebHost.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Mvc.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Razor.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.Deployment.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.Razor.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\EPPlus.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.Cors.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Table.pdb
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Razor.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.Deployment.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Webpages.Razor.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Helpers.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Mvc.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\Newtonsoft.Json.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Net.Http.Formatting.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\System.Web.Http.WebHost.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\EPPlus.xml
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\obj\Debug\AnaliseSocioeconomica.csprojResolveAssemblyReference.cache
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\obj\Debug\AnaliseSocioeconomica.csproj.CoreCompileInputs.cache
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\obj\Debug\AnaliseSocioeconomica.dll
+C:\Users\POSITIVO\Desktop\AnaliseSocioeconomica\AnaliseSocioeconomica\obj\Debug\AnaliseSocioeconomica.pdb

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* { margin: 0; padding: 0;}
+body {width: 100vw; overflow-x: hidden;
+    font-family: 'Roboto';}
+.p1 {
+    width: 110vw;
+    height: 100vh;
+    background-color: #009688;
+    padding: 75px 5vw;
+    box-sizing: border-box;
+}
+.p2 {
+        width: 100vw;
+    padding: 0 5vw;
+    height: 100vh;
+    background-color: #03A9F4;
+
+}
+.p3 {
+        width: 100vw;
+    padding: 0 5vw;
+    height: 100vh;
+    background-color: #3F51B5;
+}
+.p4 {
+    width: 100vw;
+    padding: 0 5vw;
+    height: 100vh;
+    background-color: #2196F3;
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 48;
+    box-shadow: 0px 8px 10px rgba(0,0,0,.14),
+                0px 3px 14px rgba(0,0,0,.12),
+                0px 4px 15px rgba(0,0,0,.20);
+    cursor: pointer;
+    z-index: 9999;
+    background-color: #444;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    width: 25%;
+    height: 48px;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    color: #f4f4f4;
+    transition: all 480ms ease-in;
+}
+nav li:hover {
+    background-color: rgba(255,255,255,0.40);
+}
+
+
+
+
+.p1 h1 {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 42px;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+.p1 .conteudo {
+    width: 100%;
+    height: 50vh;
+    margin-top: 25vh;
+}
+.p1 .conteudo h2 {
+    margin-top: 10px;
+    color: #444;
+    width: 100%;
+    text-align: center;
+}
+.p1 .conteudo p {
+    margin-top: 10px;
+    color: #444;
+    width: 100%;
+    text-align: center;
+}
+
+.p2 .conteudo {
+    padding-top: 55px;
+    box-sizing: border-box;
+}
+.p2 .conteudo .membro {
+    width: 100vw;
+    height: 33.3vh;
+    padding: 0 5vw;
+    box-sizing: border-box;
+}
+
+.p2 .conteudo .membro .img {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    background-color: #444;
+    float: left;
+}
+.p2 .conteudo h1 {
+    float: left;
+    width: 72vw;
+    margin-left: 3vw;
+    margin-top: 20px;
+}
+.p2 .conteudo p {
+    margin-top: 10px;
+    float: left;
+    width: 72vw;
+    margin-left: 3vw;
+}
+
+.p3 .slide-full {
+    width: 90vw;
+    height: 80vh;
+    margin: 10vh 0vw;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.p3 .next img {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 16px);
+    right: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.p3 .prev img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: calc(50% - 16px);
+    left: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.p3 .slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.p3 .grafico {
+    min-width: 100%;
+    min-height: 100%;
+    float: left;
+}
+
+
+.p4 img {
+    margin-top: 20vh;
+    margin-left: 20vw;
+    width: 50vw;
+}

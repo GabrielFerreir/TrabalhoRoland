@@ -1,0 +1,24 @@
+Cidade   OK
+ConhecimentoInformatica	OK
+ConhecimentoLingua	OK
+Deficiencia  		OK
+EstadoCivil  		OK
+Filhos   		OK
+Linguas			ERROR	
+Locomocao  		OK
+MediaRenda		OK
+Meio			OK
+MoraCom			OK
+MotivoVestibular	OK
+Nascimento  		OK
+PeriodoEstudo		OK
+PeriodoTrabalho		ERROR
+PessoasResidem		OK
+PessoasTrabalham	OK
+Situação Domiciliar	OK
+TempoMoradia		OK
+Trabalha		OK
+VidaEscolar		OK
+
+
+10/21
